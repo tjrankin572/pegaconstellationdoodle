@@ -9,7 +9,7 @@
   "scripts": {
     "startStorybook": "storybook dev --port 6040 --quiet",
     "lint": "eslint .",
-    "predeploy": "npm run build",
+    "predeploy": "npm run startStorybook",
     "deploy": "gh-pages -d build" ,
     "authenticate": "custom-dx-components authenticate",
     "buildComponent": "custom-dx-components buildComponent",
