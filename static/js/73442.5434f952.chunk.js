@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpegaconstellationdoodles=self.webpackChunkpegaconstellationdoodles||[]).push([[73442],{73442:(e,o,s)=>{s.r(o),s.d(o,{Component:()=>l,name:()=>h,set:()=>a,viewBox:()=>t});var n=s(62559);const a="budicon",h="plus-line-above",l=()=>(0,n.jsx)("path",{d:"M0 1V0h25v1H0zm11.89 17.74h.958v-5.892h5.891v-.957h-5.89V6h-.958v5.89H6v.958h5.89v5.891z"}),t="0 0 25 25"}}]);
+//# sourceMappingURL=73442.5434f952.chunk.js.map

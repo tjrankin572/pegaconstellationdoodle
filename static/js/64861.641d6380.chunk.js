@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpegaconstellationdoodles=self.webpackChunkpegaconstellationdoodles||[]).push([[64861],{64861:(e,a,o)=>{o.r(a),o.d(a,{Component:()=>d,name:()=>t,set:()=>n,viewBox:()=>l});var s=o(62559);const n="budicon",t="dataviz-area",d=()=>(0,s.jsx)("path",{d:"M0 0h1v21h21v1H0V0Zm3 8 3.188 4 4.25-3 3.187 3L20 14v5H3V8Z"}),l="0 0 22 22"}}]);
+//# sourceMappingURL=64861.641d6380.chunk.js.map
