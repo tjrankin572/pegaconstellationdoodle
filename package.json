@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Playing around with Constellation for Education purposes",
   "organization": "Tjrankin",
+  "homepage": "https://tjrankin572.github.io/pegaconstellationdoodle/",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "startStorybook": "storybook dev --port 6040 --quiet",
     "lint": "eslint .",
+    "predeploy": "npm run startStorybook",
+    "deploy": "gh-pages -d build" ,
     "authenticate": "custom-dx-components authenticate",
     "buildComponent": "custom-dx-components buildComponent",
     "buildAllComponents": "custom-dx-components buildAllComponents",
@@ -34,7 +37,7 @@
     "_lint:spelling": "cspell --no-progress **/*",
     "_lint:types": "tsc --noEmit"
   },
-    "scriptsComments": {
+  "scriptsComments": {
     "build": "tsc -b tsconfig.build.json",
     "fix": "run-p -cl fix:*",
     "fix:es": "eslint --fix .",
@@ -50,7 +53,7 @@
   "author": "",
   "license": "Enter License",
   "sideEffects": false,
- "dependencies": {
+  "dependencies": {
     "@pega/cosmos-react-condition-builder": "^6.0.3",
     "@pega/cosmos-react-core": "^6.0.3",
     "@pega/cosmos-react-work": "^6.0.3",
@@ -94,6 +97,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sonarjs": "^0.23.0",
     "eslint-plugin-storybook": "^0.6.15",
+    "gh-pages": "^6.1.1",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "jest-junit": "^16.0.0",
